@@ -1,0 +1,48 @@
+#arrow-heart {
+    margin-left: 5px;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.langga {
+  width: 100%;          /* fill the card width */
+  height: 400px;        /* fixed height for all images */
+  object-fit: cover;    /* keeps aspect ratio & crops overflow */
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.my-custom-btn {
+  background-color: #e75480; /* Orange */
+  color: white;
+  border: none;
+}
+
+.my-custom-btn:hover {
+  background-color: #ffc1cc; /* Darker orange on hover */
+}
+
+.nav-pills .nav-link.active {
+  background-color: #e75480; /* Your custom color */
+  color: white; /* Text color */
+}
+
+.nav-pills .nav-link.non {
+  /* Your custom color */
+  color: #e75480; /* Text color */
+}
+
+.form-check-input:checked {
+  background-color: #e75480; /* red fill */
+  border-color: #e75480; /* red border */
+}
